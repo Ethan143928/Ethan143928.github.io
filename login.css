@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header img {
+    width: 200px;
+    height: 125px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    height: 475px;
+    border: 1px solid rgb(225, 225, 225);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.18)
+}
+
+main .loginCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main .welcome {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .welcome img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+main .welcome h1 {
+    font-weight: 500;
+}
+
+main .login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .login input {
+    border-radius: 35px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background: rgba(230, 230, 230, 0.5);
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+main .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+main .continue button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    border: 1px solid grey;
+    background: rgb(26, 26, 26);
+    padding: 7px 20px 7px 20px;
+}
+
+main .continue a{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: small;
+}
+
+main .forget a {
+   font-weight: 600;
+   font-size: small;
+   padding: 20px; 
+}
+
+footer .foot h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
